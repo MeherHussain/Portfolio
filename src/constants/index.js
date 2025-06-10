@@ -12,12 +12,14 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  Ideoversity,
+  Corvit,
   git,
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  
+  TSOFTEK,
   shopify,
   carrent,
   jobit,
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Computer Vision Engineer",
     icon: creator,
   },
 ];
@@ -117,10 +119,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "TSOFTEK",
+    icon: TSOFTEK,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2024 - December 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,24 +131,25 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "MERN Stack Developer Internship",
+    company_name: "IDEOVERSITY",
+    icon: Ideoversity,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    date: "Aprile 2024 - August 2024",
+    points:    [
+      "Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Collaborated with designers and backend developers to implement new features and resolve technical issues.",
+      "Built RESTful APIs and integrated them with front-end components for seamless user experiences.",
+      "Optimized application performance and ensured mobile responsiveness across devices.",
+      "Participated in code reviews, contributed to team discussions, and learned best practices in modern web development.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Developer Course",
+    company_name: "Arfa Kareem Tower",
+    icon: Ideoversity,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - December 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,16 +158,16 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Artificail Intelligence Course",
+    company_name: "Corvit Networks",
+    icon: Corvit,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    date: "February 2023 - October 2023",
+    points:     [
+      "Gained hands-on experience with core Artificial Intelligence concepts, including machine learning, deep learning, and data analysis.",
+      "Developed and trained AI models using Python and popular frameworks such as TensorFlow and scikit-learn.",
+      "Worked on real-world projects involving image recognition, natural language processing, and predictive analytics.",
+      "Collaborated with peers to solve complex problems and presented project outcomes to instructors and classmates.",
     ],
   },
 ];
@@ -198,33 +201,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Course Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Completed a full stack AI Course Generator project using Next.js, MongoDB, and Express.js, featuring Clerk authentication for secure user management.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Express.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Clerk",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MeherHussain",
   },
   {
-    name: "Job IT",
+    name: "Rahate Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+ "A full stack E-Commerce Store using Next.js and Express.js, featuring product browsing, secure user authentication, and seamless shopping cart management.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +235,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Express.jx",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MeherHussain",
   },
   {
-    name: "Trip Guide",
+    name: "AI Interrior Design",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive platform that allows users to design and visualize interior spaces using AI-generated suggestions and 3D modeling.",
     tags: [
       {
-        name: "nextjs",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "replicate",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MeherHussain",
   },
 ];
 
